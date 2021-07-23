@@ -1,4 +1,4 @@
-public with sharing class getUserProfile {
+public with sharing class userProfileHelper {
     @AuraEnabled
     public static Map<String,Object> getUserProfile() {
         List<Profile> myProfile = [SELECT Id, Name FROM Profile WHERE Id=:userinfo.getProfileId() LIMIT 1];

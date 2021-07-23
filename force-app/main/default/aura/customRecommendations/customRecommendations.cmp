@@ -1,6 +1,5 @@
-<aura:component implements='forceCommunity:availableForAllPageTypes' access="global" controller="getUserProfile">
+<aura:component implements='forceCommunity:availableForAllPageTypes' access="global" controller="userProfileHelper">
 
-   <!-- PASSTHROUGH ATTRIBUTES TO COVEOV2 -->
    <aura:attribute name="name"
                    type="String"
                    access="global" />
