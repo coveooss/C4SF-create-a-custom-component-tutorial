@@ -32,7 +32,7 @@
                     </span>
                 </h2>
            </header>
-            <CoveoV2:SearchUI name = "customRecommendations"
+            <CoveoV2:SearchUI name="customRecommendations"
                   searchHub="{!v.searchHub}"
                   debug="{!v.debug}"
                   aura:id="coveoRecommendations" />
