@@ -25,9 +25,9 @@
 
    <div>
        <article>
-           <header style="padding-left:1.2rem;">
+           <header>
                 <h2>
-                    <span style="font-size:20px;font-weight:bold">
+                    <span>
                             {!v.title}
                     </span>
                 </h2>

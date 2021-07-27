@@ -8,8 +8,7 @@
 
         <div class="CoveoAnalytics"></div>
         <div class="coveo-main-section">
-            <div class="coveo-results-column"
-                 style="padding-left:0;">
+            <div class="coveo-results-column">
                 <div class="CoveoResultList"
                      data-auto-select-fields-to-include="true"
                      data-layout="list">
@@ -20,17 +19,17 @@
                             data-layout="list">
                         <div class="coveo-result-frame">
                             <div class="coveo-result-row">
-                                <div class="coveo-result-cell" style="vertical-align:top;text-align:center;width:20px;">
+                                <div class="coveo-result-cell">
                                     <div class="CoveoSalesforceQuickview">
-                                        <span class="CoveoIcon" data-small="true" data-with-label="false" style="background-size:18px;background-repeat:no-repeat;height:20px;width:20px;"></span>
+                                        <span class="CoveoIcon" data-small="true" data-with-label="false"></span>
                                     </div>
                                 </div>
-                                <div class="coveo-result-cell" style="padding-left:10px;vertical-align:top;">
-                                    <span class="CoveoFieldValue" data-field="@sourcetype" style="text-transform: uppercase;vertical-align: baseline;font-size:16px;"></span>
+                                <div class="coveo-result-cell" >
+                                    <span class="CoveoFieldValue" data-field="@sourcetype"></span>
                                 </div>
                             </div>
                             <div class="coveo-result-row">
-                                <a class="CoveoResultLink" data-open-quickview="true" style="font-size:16px;"></a>
+                                <a class="CoveoResultLink" data-open-quickview="true"></a>
                             </div>
                             <div class="coveo-result-row">
                                 <span class="CoveoExcerpt" data-open-quickview="true"></span>
