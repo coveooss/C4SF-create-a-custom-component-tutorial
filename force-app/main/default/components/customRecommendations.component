@@ -41,18 +41,5 @@
                 </div>
             </div>
         </div>
-        <div style="padding-left:15px; margin-bottom: 30px;">
-            <button type="button"
-                    style="
-                    padding: 0.5rem 2rem;
-                    margin: 0;
-                    text-decoration: none;
-                    font-size: 1rem;
-                    font-weight: bold;
-                    border-radius: 30px;
-                ">
-                See More
-            </button>
-        </div>
     </div>
 </apex:component>
