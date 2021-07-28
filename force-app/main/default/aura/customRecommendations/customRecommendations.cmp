@@ -1,8 +1,4 @@
-<aura:component implements='forceCommunity:availableForAllPageTypes' access="global" controller="userProfileHelper">
-
-   <aura:attribute name="name"
-                   type="String"
-                   access="global" />
+<aura:component implements='forceCommunity:availableForAllPageTypes' access="global" controller="userProfileController">
 
    <aura:attribute name="searchHub"
                    type="String"

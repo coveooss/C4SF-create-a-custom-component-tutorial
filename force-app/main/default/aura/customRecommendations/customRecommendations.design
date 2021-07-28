@@ -1,5 +1,4 @@
 <design:component label="Demo Community Recommendations">
-    <design:attribute name="name" label="Name" />
     <design:attribute name="title" label="Title" />
     <design:attribute name="searchHub" label="Search Hub" />
     <design:attribute name="recommendationsContext" label="Recommendations Interface" />
