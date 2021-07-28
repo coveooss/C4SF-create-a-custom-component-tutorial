@@ -27,9 +27,7 @@
        <article>
            <header>
                 <h2>
-                    <span>
-                            {!v.title}
-                    </span>
+                    {!v.title}
                 </h2>
            </header>
             <CoveoV2:SearchUI name="customRecommendations"
