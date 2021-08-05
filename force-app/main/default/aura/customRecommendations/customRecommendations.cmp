@@ -1,0 +1,36 @@
+<aura:component implements='forceCommunity:availableForAllPageTypes' access="global" controller="userProfileController">
+
+   <aura:attribute name="searchHub"
+                   type="String"
+                   access="global" />
+
+   <aura:attribute name="title"
+                   type="String"
+                   access="global" />
+
+   <aura:attribute name="debug"
+                   type="Boolean"
+                   default="false"
+                   access="global" />
+
+   <aura:attribute name="recommendationsContext"
+                   type="String"
+                   access="global" />
+
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+   <div>
+       <article>
+           <header>
+                <h2>
+                    {!v.title}
+                </h2>
+           </header>
+            <CoveoV2:SearchUI name="customRecommendations"
+                  searchHub="{!v.searchHub}"
+                  debug="{!v.debug}"
+                  aura:id="coveoRecommendations" />
+       </article>
+   </div>
+
+</aura:component>

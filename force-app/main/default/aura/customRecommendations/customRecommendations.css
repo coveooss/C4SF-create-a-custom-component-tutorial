@@ -1,0 +1,18 @@
+.THIS h2 {
+    font-size:20px;
+    font-weight:bold
+}
+
+.THIS .CoveoFieldValue {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 14px;
+}
+
+.THIS #sourcetype-cell {
+    text-align: right;
+}
+
+.THIS a.CoveoResultLink {
+    font-size: 18px;
+}

@@ -1,0 +1,44 @@
+<apex:component>
+    <div id="customRecommendations"
+         class="CoveoRecommendation"
+         data-design="new"
+         data-results-per-page="4"
+         data-excerpt-length="100"
+         data-enable-history="false">
+
+        <div class="CoveoAnalytics"></div>
+        <div class="coveo-main-section">
+            <div class="coveo-results-column">
+                <div class="CoveoResultList"
+                     data-auto-select-fields-to-include="true"
+                     data-layout="list">
+
+                    <script id="list-default"
+                            class="result-template"
+                            type="text/html"
+                            data-layout="list">
+                        <div class="coveo-result-frame">
+                            <div class="coveo-result-row">
+                                <div class="coveo-result-cell">
+                                    <div class="CoveoSalesforceQuickview">
+                                        <span class="CoveoIcon" data-small="true" data-with-label="false"></span>
+                                    </div>
+                                </div>
+                                <div class="coveo-result-cell" id="sourcetype-cell">
+                                    <span class="CoveoFieldValue" data-field="@sourcetype"></span>
+                                </div>
+                            </div>
+                            <div class="coveo-result-row">
+                                <a class="CoveoResultLink" data-always-open-in-new-window='true'></a>
+                            </div>
+                            <div class="coveo-result-row">
+                                <span class="CoveoExcerpt"></span>
+                            </div>
+                        </div>
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</apex:component>
