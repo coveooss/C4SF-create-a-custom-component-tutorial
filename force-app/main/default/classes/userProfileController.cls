@@ -1,6 +1,9 @@
 public with sharing class userProfileController {
     @AuraEnabled
     public static Map<String,Object> getUserProfile() {
+        if (userinfo.getUserType() == 'Guest') {
+            return new Map<String,Object>{};
+        }
         if (!Schema.sObjectType.Profile.fields.Id.isAccessible() || !Schema.sObjectType.Profile.fields.Name.isAccessible()) {
             throw new System.NoAccessException();
         }
