@@ -4,6 +4,7 @@
 }
 
 .THIS .CoveoFieldValue {
+    text-transform: uppercase;
     color: grey;
     font-size: 14px;
 }
