@@ -24,8 +24,8 @@
                                         <span class="CoveoIcon" data-small="true" data-with-label="false"></span>
                                     </div>
                                 </div>
-                                <div class="coveo-result-cell" id="sourcetype-cell">
-                                    <span class="CoveoFieldValue" data-field="@sourcetype"></span>
+                                <div class="coveo-result-cell" id="objecttype-cell">
+                                    <span class="CoveoFieldValue" data-field="@objecttype"></span>
                                 </div>
                             </div>
                             <div class="coveo-result-row">
