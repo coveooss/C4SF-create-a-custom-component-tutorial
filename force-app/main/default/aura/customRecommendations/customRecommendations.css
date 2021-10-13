@@ -13,6 +13,11 @@
     text-align: right;
 }
 
+.THIS .CoveoResultList {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .THIS a.CoveoResultLink {
     font-size: 18px;
 }
