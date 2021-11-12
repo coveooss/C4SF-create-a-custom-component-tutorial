@@ -1,0 +1,16 @@
+
+<aura:component implements='forceCommunity:availableForAllPageTypes,force:hasRecordId,force:hasSObjectName' controller="userProfileController">
+    <aura:attribute name="myCustomData"
+                    type="Object"  />
+
+    <aura:attribute name="recommendationsContext"
+                    type="String"
+                    access="global" />
+
+    <aura:if isTrue="{!v.myCustomData}">
+        <CoveoV2:PageViewTracker customData="{!v.myCustomData}" recordId="{!v.recordId}" sObjectName="{!v.sObjectName}" name="communityCoveo"/>
+    </aura:if>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+</aura:component>
