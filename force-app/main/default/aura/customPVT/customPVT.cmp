@@ -1,5 +1,5 @@
 
-<aura:component implements='forceCommunity:availableForAllPageTypes,force:hasRecordId,force:hasSObjectName' controller="userProfileController">
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId,force:hasSObjectName" controller="userProfileController">
     <aura:attribute name="myCustomData"
                     type="Object"  />
 
