@@ -29,7 +29,7 @@
                                 </div>
                             </div>
                             <div class="coveo-result-row">
-                                <a class="CoveoResultLink" data-always-open-in-new-window='true'></a>
+                                <a class="CoveoSalesforceResultLink"></a>
                             </div>
                             <div class="coveo-result-row">
                                 <span class="CoveoExcerpt"></span>
