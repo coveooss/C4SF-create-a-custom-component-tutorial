@@ -23,6 +23,7 @@
                 </h2>
            </header>
             <CoveoV2:SearchUI name="customRecommendations"
+                  searchHub="custom_reco"
                   debug="{!v.debug}"
                   aura:id="coveoRecommendations" />
        </article>
