@@ -26,7 +26,7 @@
                 coveoSearchUI.proxyAddEventListener('doneBuildingQuery', function (e, args) {
                     const qb = args.queryBuilder;
                     qb['recommendation'] = recommendationsContext;
-                    qb.addContextValue('recommendationsContext', recommendationsContext);
+                    qb.addContextValue('recommendations_context', recommendationsContext);
                 });
             });
         }
