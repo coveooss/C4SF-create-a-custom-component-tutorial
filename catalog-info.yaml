@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: C4SF-create-a-custom-component-tutorial
+
+  annotations:
+    github.com/project-slug: coveooss/C4SF-create-a-custom-component-tutorial
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: dev-docs
